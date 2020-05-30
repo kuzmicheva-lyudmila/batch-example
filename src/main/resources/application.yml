@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=library
+    username: postgres
+    password: 1
+    driverClassName: org.postgresql.Driver
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/library
+
